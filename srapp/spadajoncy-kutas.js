@@ -95,7 +95,7 @@ for (i = 0; i < no; ++ i) {
 	am[i] = Math.random()*20;         // set amplitude variables
 	sx[i] = 0.02 + Math.random()/10;  // set step variables
 	sy[i] = 0.7 + Math.random();    // set step variables
-	document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px;LEFT: 15px;\"><img src='"+image+"' border=\"0\"><\/div>");
+	document.write("<div id=\"dot"+ i +"\" class=\"js-super-obrazek\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px;LEFT: 15px;\"><img src='"+image+"' border=\"0\"><\/div>");
 }
 
 function animation() {  // animation function
